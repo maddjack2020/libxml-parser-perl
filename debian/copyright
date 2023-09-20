@@ -1,0 +1,116 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xml-parser
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     Changes
+           Expat/Expat.pm
+           Expat/Makefile.PL
+           Expat/typemap
+           MANIFEST
+           META.json
+           META.yml
+           Makefile.PL
+           Parser/Encodings/Japanese_Encodings.msg
+           Parser/Encodings/README
+           Parser/Encodings/big5.enc
+           Parser/Encodings/euc-kr.enc
+           Parser/Encodings/ibm866.enc
+           Parser/Encodings/iso-8859-15.enc
+           Parser/Encodings/iso-8859-2.enc
+           Parser/Encodings/iso-8859-3.enc
+           Parser/Encodings/iso-8859-4.enc
+           Parser/Encodings/iso-8859-5.enc
+           Parser/Encodings/iso-8859-7.enc
+           Parser/Encodings/iso-8859-8.enc
+           Parser/Encodings/iso-8859-9.enc
+           Parser/Encodings/koi8-r.enc
+           Parser/Encodings/windows-1250.enc
+           Parser/Encodings/windows-1251.enc
+           Parser/Encodings/windows-1252.enc
+           Parser/Encodings/windows-1255.enc
+           Parser/Encodings/x-euc-jp-jisx0221.enc
+           Parser/Encodings/x-euc-jp-unicode.enc
+           Parser/Encodings/x-sjis-cp932.enc
+           Parser/Encodings/x-sjis-jdk117.enc
+           Parser/Encodings/x-sjis-jisx0221.enc
+           Parser/Encodings/x-sjis-unicode.enc
+           Parser/Style/Debug.pm
+           Parser/Style/Objects.pm
+           Parser/Style/Stream.pm
+           Parser/Style/Subs.pm
+           Parser/Style/Tree.pm
+           README
+           samples/xmlcomments
+           samples/xmlfilter
+           samples/xmlstats
+           t/astress.t
+           t/cdata.t
+           t/decl.t
+           t/defaulted.t
+           t/encoding.t
+           t/external_ent.t
+           t/file.t
+           t/file_open_scalar.t
+           t/finish.t
+           t/namespaces.t
+           t/parament.t
+           t/partial.t
+           t/skip.t
+           t/stream.t
+           t/styles.t
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     Expat/Expat.xs
+           Expat/encoding.h
+           Parser.pm
+           Parser/LWPExternEnt.pl
+Copyright: 1998-2000 Clark Cooper
+           1998-2000 Larry Wall and Clark Cooper
+License:   Perl
+ This program is free software; you can redistribute it and/or
+ modify it under the same terms as Perl itself.
+
+Files:     samples/canonical
+Copyright: 1999 Clark Cooper <coopercc@netheaven.com>
+License:   __HEADER___
+ This program is free software; you can redistribute it and/or
+ modify it under the same terms as Perl itself.
+ .
+ $Revision: 1.1.1.1 $
+ .
+ $Date: 2003-07-27 11:07:11 $
+ .
+ This program take an XML document (either on standard input or
+ from a filename supplied as an argument) and generates corresponding
+ canonical XML document on the standard output. The definition of
+ "Canonical XML" that I'm using is taken from the working draft
+ published by W3C on 19-Jan-2000:
+ .
+ http://www.w3.org/TR/2000/WD-xml-c14n-20000119.html
+ .
+ The latest version of this document is at:
+ .
+ http://www.w3.org/TR/xml-c14n
+
+Files:     inc/Devel/CheckLib.pm
+Copyright: 2007 David Cantrell. Portions copyright 2007 David Golden.
+License:   __UNKNOWN__
+ This module is free-as-in-speech software, and may be used, distributed,
+ and modified under the same conditions as perl itself.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         t/ext.ent
+#         t/ext2.ent
+#         t/foo.dtd
+#         samples/REC-xml-19980210.xml
+#         samples/canontst.xml
+#         samples/ctest.dtd
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.

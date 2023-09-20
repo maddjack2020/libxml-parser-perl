@@ -1,0 +1,17 @@
+Source: xml-parser
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), perl
+Standards-Version: 4.5.1
+Homepage: https://metacpan.org/release/XML-Parser
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/libxml-parser-perl.git
+Vcs-Browser: https://github.com/maddjack2020/libxml-parser-perl
+
+Package: xml-parser
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The XML::Parser module is a Perl interface to James Clark's XML parser, Expat.
